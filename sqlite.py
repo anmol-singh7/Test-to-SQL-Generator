@@ -44,3 +44,6 @@ data = cursor.execute("""Select * from STUDENT""")
 
 for row in data:
     print(row)
+
+connection.commit()
+connection.close()
